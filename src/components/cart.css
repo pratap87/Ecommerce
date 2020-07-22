@@ -1,0 +1,141 @@
+.cont{
+    display:grid;
+
+ grid-template-columns: 800px 400px;
+    height: auto;
+    background-color:#F6E2DF;
+  grid-gap: 90px;
+
+ 
+}
+.checkout{
+    margin-top: 30%;
+    width:400px;
+    min-height: 60vh;
+    height: auto;
+    box-shadow: 1px 1px 2px wheat;
+    background-color: #FAE9E5;
+}
+.toast{
+    z-index: 1000;
+    margin-left:70%;
+    color:whitesmoke;
+    font-weight: 400;
+    width: 300px;
+    background-color:forestgreen;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+.cardt{
+    min-height: 60vh;
+    margin-top: 15%;
+    margin-left: 15%;
+    background:white;
+    width: 800px;
+    height: auto;
+    box-shadow: 1px 1px 2px wheat;
+}
+ .prod{
+     display: flex;
+     justify-content: space-evenly;
+     color:#ABA2A0;
+     font-weight: 200;
+     text-transform: uppercase;
+      
+     
+ }
+ .prod .img{
+    
+ }
+ .im{
+     height: 100px;
+ 
+ }
+.imgcc{
+    max-width: 100%;
+    max-height: 220px;
+}
+
+.cho{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    color:#ABA2A0;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    text-emphasis: none;
+}
+.btnch{
+        display: flex;
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background: #000;
+         letter-spacing: 2px;
+        color: #ABA2A0;
+        text-align: center;
+        font-weight: 300;
+        border: 0;
+        border-radius: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        text-emphasis: none;
+        cursor: pointer;
+         
+}
+
+
+@media screen and (max-width: 720px) {
+    .cont {
+      grid-template-columns: 1fr;
+      grid-gap: 1px;
+      width: 100%;
+    }
+    .checkout{
+        margin-top: 1%;
+        width:100%;
+        height: 80vh;
+        box-shadow: 1px 1px 2px wheat;
+        background-color: #FAE9E5;
+    }
+    .cardt{
+        margin-top: 20%;
+        margin-left: -1.6%;
+        background:white;
+        width: 100%;
+        min-height: 60vh;
+        height:auto;
+        box-shadow: 1px 1px 2px wheat;
+    }
+    .prod{
+        display: flex;
+        justify-content: space-evenly;
+        color:#ABA2A0;
+        font-weight: 100; 
+        font-size: small;
+        
+    }
+    
+    .im{
+        height: 50px;
+    
+    }
+    .toast{
+        z-index: 1000;
+        margin-left:-1%;
+        color:whitesmoke;
+        font-weight: 400;
+        width: auto;
+        background-color:forestgreen;
+        height: 20px;
+        padding: 10px;
+        text-align: center;
+        
+    
+    }
+  }
